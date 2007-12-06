@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - PHP interface to Digg's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Digg-a
 Name:		php-pear-%{_pearname}
-Version:	0.3.2
+Version:	0.4.1
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	643557759b926fb4aba29fc246b0e81b
+# Source0-md5:	45966f524a5fb60a773fd16438c314fb
 URL:		http://pear.php.net/package/Services_Digg/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
