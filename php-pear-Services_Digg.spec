@@ -7,7 +7,7 @@ Summary:	%{_pearname} - PHP interface to Digg's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Digg-a
 Name:		php-pear-%{_pearname}
 Version:	0.4.1
-Release:	1
+Release:	2
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
