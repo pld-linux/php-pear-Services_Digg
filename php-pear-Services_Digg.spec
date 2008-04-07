@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	Services_Digg
 Summary:	%{_pearname} - PHP interface to Digg's API
-Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Digg-a
+Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Digga
 Name:		php-pear-%{_pearname}
 Version:	0.4.1
 Release:	2
@@ -21,13 +21,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 An interface for accessing Digg's web services API at
-http://services.digg.com.
+<http://services.digg.com/>.
 
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Pakiet tne dostarcza interfejs umożliwiający dostęp do web services
-Digg-a znajdujących się pod adresem http://services.digg.com
+Pakiet ten dostarcza interfejs umożliwiający dostęp do usług WWW
+serwisu Digg znajdujących się pod adresem <http://services.digg.com/>.
 
 Ta klasa ma w PEAR status: %{_status}.
 
