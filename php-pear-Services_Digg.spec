@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - PHP interface to Digg's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Digga
 Name:		php-pear-%{_pearname}
-Version:	0.4.5
+Version:	0.4.7
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4a7bde3096bfac50ca24804dbb5eac78
+# Source0-md5:	11bf3da0e0bf74c01cee9a2dc300cc5c
 URL:		http://pear.php.net/package/Services_Digg/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -35,9 +35,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
