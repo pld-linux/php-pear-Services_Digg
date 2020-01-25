@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Services_Digg
 Summary:	%{_pearname} - PHP interface to Digg's API
